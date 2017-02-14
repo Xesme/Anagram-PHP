@@ -1,11 +1,13 @@
 <?php
 
-    function Anagram
+    class Anagram
     {
-        function checkCharacters {
-            <?php
+
+
+        function checkCharacters()
+         {
             $a = "tale";
-            $b = "bin";
+            $b = "crib";
 
 
             $countA = count_chars($a, 1);
@@ -17,7 +19,6 @@
         } else {
         	echo "There is not a match";
         }
-
         }
     }
 

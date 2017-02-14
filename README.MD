@@ -12,9 +12,10 @@ A webpage for checking to see if a word has anagrams in PHP! Yay words!
 ##Specifications:
 Behavior | Input | Output
 ------------ | ------------- | -------------
-User enters a word into the form and clicks on the green button  | use the word "snap", and click on the green button | a new page will display showing the user (if possible) anagrams for that word
-After a new anagram has or has not been shown(if there are no possible matches) the user will be prompted to click the green "Go Back" button| click on the green button | User is redirected to the homepage User can now view words already used and their anagram matches:  _"snap"_,   _"pans"_,   _"naps"_,   _"span"_
-User can now enter a new word into the form or choose to clearn the form and use the red "Stare Over" button | click red button | All previous word have now been cleared
+User enters two words into the form and clicks on the green button to evaluate if they are anagrams of each other | use the words "snap" and "naps", and click on the green button | a new page will display showing the user if they are anagrams or are not anagrams
+After a new anagram has or has not been shown the user will be prompted to click the green "Go Back" button| click on the green button | User is redirected to the homepage User can now view words already used and their anagram matches:  _"snap"_,   _"naps"_
+User can now enter a new word into the form or choose to clear the form and use the red "Start Over" button | click red button | All previous entries have now been cleared
+
 
 
 ##Setup and Installation Requirements:
