@@ -2,14 +2,13 @@
 
     class Anagram
     {
+        private $input1;
+        private $input2;
+
 
 
         function checkCharacters()
          {
-            $a = "tale";
-            $b = "crib";
-
-
             $countA = count_chars($a, 1);
             $countB = count_chars($b, 1);
 

@@ -1,6 +1,6 @@
 <?php
     require_once __DIR__."/../vendor/autoload.php";
-    require_once __DIR__."/../src/anagram.php";
+    require_once __DIR__."/../src/AnagramGenerator.php";
 
     $app = new Silex\Application();
 

@@ -1,20 +1,21 @@
 <?php
 
-    require_once "src/Anagram.php";
+    require_once "src/AnagramGenerator.php";
 
     class AnagramGeneratorTest extends PHPUnit_Framework_TestCase
     {
-        function test_checkChars()
+        function test_checkCharacters()
         {
             // Arrange
             $test_AnagramGeneratorTest = new AnagramGeneratorTest;
-            $input = "tale";
+            $a = "tale";
+            $b = "late";
 
             // Act
-            $result = $test_AnagramGeneratorTest->count_chars($input, 1);
+            $result = $test_AnagramGeneratorTest->checkCharacters($a);
 
             // Result
-            $this->assertEquals(4);
+            $this->assertEquals($result);
         }
     }
 
